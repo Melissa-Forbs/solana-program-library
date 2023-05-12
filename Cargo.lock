@@ -200,9 +200,15 @@ checksum = "3441f0f7b02788e948e47f457ca01f1d7e6d92c693bc132c22b087d3141c03ff"
 
 [[package]]
 name = "base64"
-version = "0.13.0"
+version = "0.13.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "904dfeac50f3cdaba28fc6f57fdcddb75f49ed61346676a78c4ffe55877802fd"
+checksum = "9e1b586273c5702936fe7b7d6896644d8be71e6314cfe09d3167c95f712589e8"
+
+[[package]]
+name = "base64"
+version = "0.21.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a4a4ddaa51a5bc52a6948f74c06d20aaaddb71924eab79b8c97a8c556e942d6a"
 
 [[package]]
 name = "binary-option"
@@ -2414,7 +2420,7 @@ version = "0.11.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7c4e0a76dc12a116108933f6301b95e83634e0c47b0afbed6abbaa0601e99258"
 dependencies = [
- "base64 0.13.0",
+ "base64 0.13.1",
  "bytes",
  "encoding_rs",
  "futures-core",
@@ -2515,7 +2521,7 @@ version = "0.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "5eebeaeb360c87bfb72e84abdb3447159c0eaececf1bef2aecd65a8be949d1c9"
 dependencies = [
- "base64 0.13.0",
+ "base64 0.13.1",
 ]
 
 [[package]]
@@ -2952,7 +2958,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "99a4c275ea740fdeb2b250d4567b3c1a588f517e03fda48e92d4bf0c7209b810"
 dependencies = [
  "Inflector",
- "base64 0.13.0",
+ "base64 0.13.1",
  "chrono",
  "clap",
  "console 0.15.0",
@@ -2975,7 +2981,7 @@ version = "1.9.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "74f25e846fedd217fb4b72960c0898afd2e6059931ae928829b66148b7d3f750"
 dependencies = [
- "base64 0.13.0",
+ "base64 0.13.1",
  "bincode",
  "bs58",
  "clap",
@@ -3173,7 +3179,7 @@ version = "1.9.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "51abcddafe51821256baa3dcffd01f1a16f830ae86783ba5fa0a7f2f073acbd9"
 dependencies = [
- "base64 0.13.0",
+ "base64 0.13.1",
  "bincode",
  "bitflags",
  "blake3",
@@ -3216,7 +3222,7 @@ version = "1.9.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "2e1e88c6336c61c0e642d4535f3cca8c2bea9b983fa865d41874433023f77762"
 dependencies = [
- "base64 0.13.0",
+ "base64 0.13.1",
  "bincode",
  "itertools",
  "libc",
@@ -3352,7 +3358,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a608fdc4ba4cb22c1b05668036f962d7d9bc3e0b72ed5747ab71c754b15f728f"
 dependencies = [
  "assert_matches",
- "base64 0.13.0",
+ "base64 0.13.1",
  "bincode",
  "bitflags",
  "borsh",
@@ -3517,7 +3523,7 @@ checksum = "1cfe2e56c739d38cd1f9492baf9cb5a885e7d3331701ab4c7d65f50637d47b6e"
 dependencies = [
  "aes-gcm-siv",
  "arrayref",
- "base64 0.13.0",
+ "base64 0.13.1",
  "bincode",
  "bytemuck",
  "byteorder",
@@ -3682,7 +3688,7 @@ version = "2.2.4"
 dependencies = [
  "arrayref",
  "assert_matches",
- "base64 0.13.0",
+ "base64 0.21.0",
  "bincode",
  "borsh",
  "num-derive",
@@ -3716,7 +3722,7 @@ version = "0.1.2"
 dependencies = [
  "arrayref",
  "assert_matches",
- "base64 0.13.0",
+ "base64 0.21.0",
  "bincode",
  "borsh",
  "num-derive",
@@ -3740,7 +3746,7 @@ version = "0.2.5"
 dependencies = [
  "arrayref",
  "assert_matches",
- "base64 0.13.0",
+ "base64 0.21.0",
  "bincode",
  "borsh",
  "num-derive",
@@ -4023,7 +4029,7 @@ version = "0.1.0"
 dependencies = [
  "arrayref",
  "assert_matches",
- "base64 0.13.0",
+ "base64 0.21.0",
  "bytemuck",
  "log",
  "num-derive",
@@ -4501,7 +4507,7 @@ version = "0.16.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "6ad3713a14ae247f22a728a0456a545df14acf3867f905adff84be99e23b3ad1"
 dependencies = [
- "base64 0.13.0",
+ "base64 0.13.1",
  "byteorder",
  "bytes",
  "http",
