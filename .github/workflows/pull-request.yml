@@ -142,3 +142,11 @@ jobs:
 
       - name: Build and test
         run: ./ci/cargo-build-test.sh
+        - name: Set up Rust
+  uses: actions-rs/toolchain@v1
+  with:
+    toolchain: stable
+    override: true
+    profile: minimal
+    version: 1.82
+    
