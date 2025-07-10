@@ -142,3 +142,9 @@ jobs:
 
       - name: Build and test
         run: ./ci/cargo-build-test.sh
+        - name: Run Cargo Audit
+  
+  run: |
+    rustup toolchain install nightly
+    rustup run nightly cargo install cargo-audit
+    rustup run nightly cargo audit
