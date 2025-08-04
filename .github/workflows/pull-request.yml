@@ -141,4 +141,20 @@ jobs:
           echo "$HOME/.local/share/solana/install/active_release/bin" >> $GITHUB_PATH
 
       - name: Build and test
+  workflow to install the nightly version of Rust and Cargo- name: Install nightly Rust toolchain
+  before running any tasks that require `edition202 run: rustup toolchain install nightly
+
+/- name: Set default toolchain to nightly
+run: rustup default nightly
+4`. You can do this by adding the following step to your workflow YAML (see .github/workflows/pull```
+
+
+Add these steps before any job step that builds or-request.yml):
+```yaml
+- name: Install nightly Rust installs Rust crates (such as `cargo-audit`). This will ensure that your workflow uses the latest nightly version, which supports the `edition2024` feature.
+
+** toolchain
+  run: |
+    rustup toolchain install nightly
+    rustup default nightly
         run: ./ci/cargo-build-test.sh
