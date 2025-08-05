@@ -142,3 +142,8 @@ jobs:
 
       - name: Build and test
         run: ./ci/cargo-build-test.sh
+     - name: Install nightly Rust toolchain
+ 
+run: |
+    rustup toolchain install nightly
+    rustup default nightly
